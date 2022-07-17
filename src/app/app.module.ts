@@ -15,7 +15,8 @@ import {
   CadastroPjRoutingModule,
   CadastroPfModule,
   CadastroPfRoutingModule
-} from './autenticacao';
+  
+} from './autentication';
 import { AppRoutingModule } from './app-routing.module';
 import { 
   FuncionarioModule, 
