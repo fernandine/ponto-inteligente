@@ -4,7 +4,7 @@ export class CpfValidator {
 
     static validate(control: AbstractControl): {[key: string]: boolean} {
         if (this.cpfValido(control.value)) {
-            return null;
+
         }
         return { 'cpf': true };
     }

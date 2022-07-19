@@ -4,9 +4,9 @@ export class CnpjValidator {
 
     static validate(control: AbstractControl): {[key: string]: boolean} {
         if (this.cnpjValido(control.value)) {
-            return null;
         }
-        return { 'cnpj': true };
+      const newLocal = { 'cnpj': true };
+        return newLocal;
     }
 
     static cnpjValido(cnpj: any): boolean {
